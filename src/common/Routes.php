@@ -1,6 +1,6 @@
 <?php
 
-namespace vdb_sdk_php\common;
+namespace Coccuscc\Vdb\common;
 
 class Routes
 {

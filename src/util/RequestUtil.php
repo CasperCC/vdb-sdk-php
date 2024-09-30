@@ -1,6 +1,6 @@
 <?php
 
-namespace vdb_sdk_php\util;
+namespace Coccuscc\Vdb\util;
 
 use Exception;
 use GuzzleHttp\Client;

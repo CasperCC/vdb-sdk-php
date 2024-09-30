@@ -2,9 +2,9 @@
 
 namespace Coccuscc\Vdb;
 
+use Coccuscc\Vdb\common\Routes;
+use Coccuscc\Vdb\util\RequestUtil;
 use Exception;
-use vdb_sdk_php\common\Routes;
-use vdb_sdk_php\util\RequestUtil;
 
 class Database
 {
