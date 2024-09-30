@@ -1,6 +1,6 @@
 <?php
 
-namespace vdb_sdk_php\src;
+namespace Coccuscc\Vdb;
 
 class Client
 {

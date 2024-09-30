@@ -1,6 +1,6 @@
 <?php
 
-namespace vdb_sdk_php\src;
+namespace Coccuscc\Vdb;
 
 use Exception;
 use vdb_sdk_php\common\Routes;
