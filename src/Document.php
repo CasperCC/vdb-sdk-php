@@ -47,13 +47,13 @@ class Document
      * @return mixed
      * @throws Exception
      */
-    public function searchTextDocument(string $dbName, string $collection, string $searchItem, int $limit, array $otherSearchParams = []): mixed
+    public function searchTextDocument(string $dbName, string $collection, array $searchItems, int $limit, array $otherSearchParams = []): mixed
     {
         $params = [
             "database"   => $dbName,
             "collection" => $collection,
             "search"     => [
-                'embeddingItems' => $searchItem,
+                'embeddingItems' => $searchItems,
                 'limit'          => $limit
             ],
         ];
