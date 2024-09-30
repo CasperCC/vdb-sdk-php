@@ -61,6 +61,7 @@ class Collection
         ?string $description = null,
         array $indexes = [],
         bool $isEmbedding = false,
+        string $embeddingField = 'text',
         string $embeddingModel = 'e5-large-v2', // 默认使用英文
     ): mixed
     {
@@ -74,7 +75,7 @@ class Collection
         ];
         if ($isEmbedding) {
             $params['embedding'] = [
-                'field'       => 'text',
+                'field'       => $embeddingField,
                 'vectorField' => 'vector',
                 'model'       => $embeddingModel,
             ];
